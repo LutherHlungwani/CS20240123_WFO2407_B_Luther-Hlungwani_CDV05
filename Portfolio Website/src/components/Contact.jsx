@@ -1,4 +1,6 @@
-import { Linkedin, Github, Phone, Mail } from 'lucide-react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
   return (
@@ -7,13 +9,13 @@ const Contact = () => {
         <h2 className="text-3xl font-bold text-gray-800 mb-8">Contact</h2>
         <div className="space-y-4">
           <p className="text-gray-600 flex items-center justify-center">
-            <Phone size={20} className="mr-2 text-teal-500" />
+            <FontAwesomeIcon icon={faPhone} className="text-teal-500 mr-2" />
             +27 68 112 9000
           </p>
           <p className="text-gray-600 flex items-center justify-center">
-            <Mail size={20} className="mr-2 text-teal-500" />
-            <a href="mailto:lutherhlungwani3@gmail.com" className="text-teal-500 hover:text-teal-600">
-              lutherhlungwani3@gmail.com
+            <FontAwesomeIcon icon={faEnvelope} className="text-teal-500 mr-2" />
+            <a href="mailto:lutherhlungwani9@gmail.com" className="text-teal-500 hover:text-teal-600">
+              lutherhlungwani9@gmail.com
             </a>
           </p>
           <div className="flex justify-center space-x-6">
@@ -24,7 +26,7 @@ const Contact = () => {
               className="text-teal-500 hover:text-teal-600"
               aria-label="LinkedIn Profile"
             >
-              <Linkedin size={24} />
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
             <a 
               href="https://github.com/LutherHlungwani"
@@ -33,7 +35,7 @@ const Contact = () => {
               className="text-teal-500 hover:text-teal-600"
               aria-label="GitHub Profile"
             >
-              <Github size={24} />
+              <FontAwesomeIcon icon={faGithub} size="lg" />
             </a>
           </div>
         </div>
