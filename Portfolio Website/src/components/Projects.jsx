@@ -30,6 +30,13 @@ const ProjectCard = ({ title, image, description, link }) => {
         image: "/Agile Kanban Board.gif",
         description: "Welcome to the Agile Board project, allowing dev teams to create, log, and track tasks. Built with HTML, CSS, JavaScript.",
         link: "https://github.com/LutherHlungwani/CS20240123_WFO2407_B_Luther-Hlungwani_JSL11.git"
+      },
+      {
+        title: "CodeCast Podcasting App",
+        image: "/Portfolio Website/public/Screenshot 2024-12-15 123439.png",
+        description: "Welcome to CodeCast Podcast App, this makes use of React hooks to help you listen to you favorite podcasts as they are updated. You can select favorite episodes and enjoy the day. ",
+        link: "https://codecaster5.netlify.app"
+
       }
     ]
   
