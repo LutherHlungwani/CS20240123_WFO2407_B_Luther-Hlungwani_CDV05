@@ -33,7 +33,7 @@ const ProjectCard = ({ title, image, description, link }) => {
       },
       {
         title: "CodeCast Podcasting App",
-        image: "/Portfolio Website/public/Screenshot 2024-12-15 123439.png",
+        image: "/Screenshot 2024-12-15 123439.png",
         description: "Welcome to CodeCast Podcast App, this makes use of React hooks to help you listen to you favorite podcasts as they are updated. You can select favorite episodes and enjoy the day. ",
         link: "https://codecaster5.netlify.app"
 
